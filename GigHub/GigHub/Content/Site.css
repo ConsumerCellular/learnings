@@ -116,6 +116,7 @@ h6,
 
 .form-control:focus {
     border-color: #2196f3;
+    transition: none;
     box-shadow: none;
     -webkit-box-shadow: none;
 }
@@ -203,4 +204,9 @@ h6,
 
 .popover-notifications ul.notifications .highlight {
     font-weight: bold;
+}
+
+#searchGigs {
+    width: 300px;
+    height: 44px;
 }
